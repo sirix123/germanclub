@@ -1,0 +1,60 @@
+<!-- 
+HTML for Frontend Page Basic Structure (sends all html code)
+CSS is for Template Styling
+Javascript for Client side functionalities
+PHP for Server side functionalities (only sends result to client, hosting service needs to protect )
+MYSQL is database engine 
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+	<head>
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<script src="javascript/scripts.js"></script>
+	
+		<title>Newsletter</title>
+
+	</head>
+	<body> 
+		<div id = "container">
+			<div class= "header">
+				<h1 class="banner"></h1>
+			</div>
+
+			<div class ="content">
+
+				<div class = "title">
+					<h1>Newsletter</h1>
+				</div>
+				<div class ="nav">
+					<ul>
+ 						<li><a href="default.asp">Home</a></li>
+					 	<li><a href="file:///D:/club_astoria_morwell/gallery.html">Gallery</a></li>
+						<li><a href="contact.asp">Contact</a></li>
+			   			<li><a href="about.asp">About</a></li>
+			   			<li><a href="shop.asp">Shop</a></li>
+					</ul>	
+ 				</div>
+				<div class = "main">
+					<h2>Newsletter</h2>
+					<h3>Please enter your email address below:</h3>
+					<form>
+						<p>First name: 	<input type='text' id="firstname" name='firstname' /></p>
+  						<p>Last name: 	<input type='text' id="lastname" name='lastname' /></p>
+						<p>Email:		<input type="email" id="email" name='email'></p>
+						<p>				<input type="submit" id="submit"></p>
+					</form>
+				</div>
+			</div>
+
+			<div class ="footer">
+				
+			</div>
+		</div>
+	</body>
+</html>
+

@@ -89,6 +89,7 @@ li:last-child {
 	float: right;
 }
 
+
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
@@ -145,6 +146,16 @@ div.desc {
 
 h2{
 	margin: 0px;
+	text-align: center;
+}
+
+h3{
+	margin: 10px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
 }
 
 .buttons {
