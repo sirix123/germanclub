@@ -1,5 +1,5 @@
 body {
-	background-color: #331f00;
+	background-color: black;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -53,11 +53,12 @@ h1{
 ul{
 	max-width: 160px;
 	list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    background-color: red;
+    margin: 5px;
+    padding: 5px;
+    background-color: #ae0404;
     border: 1px solid #555;
     float: left;
+    font-weight: 600;
 }
 
 li a{
@@ -83,9 +84,9 @@ li:last-child {
 .main{
 	background-color: orange;
 	width: 610px;
-	padding: 10px;
+	padding: 5px;
 	border: 1px solid #555;
-	margin: 10px;
+	margin: 5px;
 	text-align: justify;
 	float: right;
 }
